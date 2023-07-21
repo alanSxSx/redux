@@ -33,11 +33,12 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={handleIncrement}>
-          count is + {count}
+          count is +
         </button>
         <button onClick={handleDecrement}>
-          count is - {count}
+          count is -
         </button>
+        <p>{count}</p>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
